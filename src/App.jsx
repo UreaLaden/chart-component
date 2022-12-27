@@ -7,8 +7,8 @@ import { styles } from "./App.css.js";
 
 function App() {
   return (
-    <div className={styles.app}>
-      <Stack>
+    <div className={styles.mainContainer}>
+      <Stack className={styles.stackContainer}>
         <Balance/>
         <Card>
           <Chart />

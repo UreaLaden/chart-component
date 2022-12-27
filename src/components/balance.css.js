@@ -1,16 +1,15 @@
 import { mergeStyleSets } from "@fluentui/merge-styles";
-import { darkBrown, redOrange, white } from "../utils/Colors";
+import { darkBrown, redOrange } from "../utils/Colors";
 
 export const styles = mergeStyleSets({
-    container: {
-        height: "125px",
-        width: "50%",
+    balanceContainer: {
+        height: "15vw",
+        width: "50vw",
         backgroundColor: redOrange,
-        borderRadius: "20px",
-        margin: "50px auto 20px auto",
+        borderRadius: "30px",
         display: "flex",
         flexDirection: "row",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
     },
     infoContainer: {
         justifyContent: "center",
@@ -20,16 +19,15 @@ export const styles = mergeStyleSets({
         fontFamily: 'DM Sans, sans-serif',
         fontStyle: 'normal',
         fontWeight: 400,
-        fontSize: '18px',
-        lineHeight: '23px',
+        fontSize: '2vw',
         color:"#FFFFFF"
     },
     amount: {
         fontFamily: 'DM Sans, sans-serif',
         fontStyle: 'normal',
         fontWeight: 700,
-        fontSize: '32px',
-        lineHeight: '42px',
+        fontSize: '3vw',
+        lineHeight: '4vw',
         color:"#FFFFFF",
         paddingTop:"8px"
     },
@@ -41,18 +39,18 @@ export const styles = mergeStyleSets({
         "grid-template-columns":"1fr"
     },
     circle:{
-        height:"48px",
-        width:"48px",
+        height:"5vw",
+        width:"5vw",
         backgroundColor:darkBrown,
-        borderRadius:"25px",
+        borderRadius:"50%",
         'grid-row-start': '1',
         'grid-column-start': '1',
     },
     secondaryCircle:{
-        height:"42px",
-        width:"42px",
+        height:"4vw",
+        width:"4vw",
         border:"2px solid #FFFFFF",
-        borderRadius:"25px",
+        borderRadius:"50%",
         'grid-row-start': '1',
         'grid-column-start': '1',
         transform:"translateX(-50%)"

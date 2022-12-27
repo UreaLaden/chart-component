@@ -18,7 +18,7 @@ export const styles = mergeStyleSets({
         fontFamily: 'DM Sans, sans-serif',
         fontStyle: 'normal',
         fontWeight: 400,
-        fontSize: '18px',
+        fontSize: '2vw',
         lineHeight: '23px',
         color:lightBrown
     },
@@ -26,8 +26,8 @@ export const styles = mergeStyleSets({
         fontFamily: 'DM Sans, sans-serif',
         fontStyle: 'normal',
         fontWeight: 700,
-        fontSize: '48px',
-        lineHeight: '62px',
+        fontSize: '5vw',
+        lineHeight: '8vw',
         color:darkBrown
     },
     stats: {
@@ -37,16 +37,16 @@ export const styles = mergeStyleSets({
     change:{
         fontFamily:"DM Sans, sans-serif",
         fontWeight: 600,
-        fontSize: '18px',
-        lineHeight: '23px',
+        fontSize: '3vw',
+        lineHeight: '4vw',
         textAlign: 'right',
         color:darkBrown
     },
     timeFrame:{
         fontFamily:"DM Sans, sans-serif",
         fontWeight: 400,
-        fontSize: '18px',
-        lineHeight: '23px',
+        fontSize: '2vw',
+        lineHeight: '4vw',
         textAlign: 'right',
         color:lightBrown
     }

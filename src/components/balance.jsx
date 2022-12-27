@@ -4,7 +4,7 @@ import { styles } from './balance.css';
 
 const Balance = () => {
     return (
-    <div className={styles.container}>
+    <div className={styles.balanceContainer}>
         <Stack className={styles.infoContainer}>
             <div className={styles.text}>My Balance</div>
             <div className={styles.amount}>$921.48</div>
