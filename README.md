@@ -61,18 +61,51 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+ const labels = jsonData.map((entry) => entry.day);
+    const today = new Date().toString().split(" ")[0].toLowerCase();
+    const dataset = [{
+        label: "Total Spent",
+        data: jsonData.map((entry) => entry.amount),
+        backgroundColor: jsonData.map((entry) => entry.day === today ? cyan : redOrange),
+        borderRadius: 15,
+        borderSkipped: false,
+    }];
+    const data = { labels, datasets: dataset };
+    const option = {
+        plugins: {
+            legend: {
+                display: false
+            },
+        },
+        scales: {
+            x: {
+                grid: {
+                    display: false
+                },
+                border: {
+                    display: false
+                },
+                ticks: {
+                    color: lightBrown
+                }
+            },
+            y: {
+                grid: {
+                    display: false
+                },
+                ticks: {
+                    display: false,
+                },
+                border: {
+                    display: false,
+                }
+            }
+        }
+    }
+    return (
+        <Bar data={data} options={option} />
+    )
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.

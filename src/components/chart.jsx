@@ -9,7 +9,7 @@ import {
     Tooltip,
     Legend,
 } from 'chart.js';
-import { cyan, darkBrown, lightBrown, redOrange, transparent } from '../utils/Colors';
+import { cyan, lightBrown, redOrange } from '../utils/Colors';
 
 const jsonData = require('../utils/data.json');
 const Chart = () => {
