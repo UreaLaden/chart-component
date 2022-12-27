@@ -95,6 +95,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Leaundrae Mckinney](https://www.linkedin.com/in/leaundrae-mckinney/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@UreaLaden](https://www.frontendmentor.io/profile/UreaLaden)
