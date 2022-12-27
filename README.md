@@ -48,12 +48,10 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- [ChartJS]()
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
-- Merged Styles
+- [Fluent UI ](https://styled-components.com/) - For OOB Components and Merged Style sets
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
